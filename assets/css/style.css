@@ -79,3 +79,50 @@ input[type=text],input[type=email],input[type=tel],input[type=passward],input[ty
 .website-checker-form{
     margin-top: 30px;
 }
+
+
+/*Class two css*/
+.section-padding {
+  padding: 115px 0;
+}
+.section-title {
+  margin-bottom: 90px;
+}
+.single-service-box {
+  border: 1px solid #fafafa;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+.service-icon {
+  color: #231f20;
+  font-size: 30px;
+}
+.single-service-box h3 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.service-reademore-btn {
+  color: #373737;
+  display: inline-block;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.service-reademore-btn i.zmdi {
+  padding-left: 5px;
+}
+.pdt-50 {
+  padding-top: 50px;
+}
+.single-service-box:hover{
+    border-color: #ef476f;
+}
+
+.single-service-box:hover a.service-reademore-btn,.single-service-box:hover h3,.single-service-box:hover .service-icon{
+    color: #ef476f;
+}
+h2{font-size: 28px;line-height: 37px;}
+.pdt-50 .boxed-btn {
+  margin-top: 15px;
+}
