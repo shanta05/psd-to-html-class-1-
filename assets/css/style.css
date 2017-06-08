@@ -126,3 +126,114 @@ h2{font-size: 28px;line-height: 37px;}
 .pdt-50 .boxed-btn {
   margin-top: 15px;
 }
+
+
+
+.section-padding.gray-bg {
+    background-color: #fbfbfb;
+}
+.bg-1{background-image: url(../img/mobile.png);}
+.bg-2{background-image: url(../img/thanku.png);}
+.bg-3{background-image: url(../img/tab.png) ;
+background-position: center;
+width: 100%;
+background-repeat: no-repeat;
+background-color: #ECECEC;
+}
+
+.single-case-study {
+    display: table;
+    height: 320px;
+    position: relative;
+    width: 100%;
+}
+.case-study-wrapper {
+    background-color: #ef476f;
+    color: #fff;
+    display: table-cell;
+    opacity: 0;
+    padding: 30px;
+    position: absolute;
+    top: -87%;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    visibility: hidden;
+    width: 100%;
+}
+.case-study-wrapper h3, .case-study-wrapper h4 {
+    color: #fff;
+}
+.case-study-more {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #333;
+    display: inline-block;
+    height: 40px;
+    line-height: 44px;
+    margin-top: 10px;
+    width: 40px;
+}
+.single-case-study:hover .case-study-wrapper {
+   opacity: 1;
+   visibility: visible;
+   top: 0;
+   left: 0;
+   height: 100%
+}
+.case-studies-carousel.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+.section-padding.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.owl-dots div {
+    background: #e2e2e2 none repeat scroll 0 0;
+    display: inline-block;
+    height: 3px;
+    margin: 2px;
+    width: 20px;
+}
+.owl-dots div.active {
+    background: #ef476f none repeat scroll 0 0;
+}
+.owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+.single-testimonial-carousel {
+    text-align: center;
+}
+.testimonial-content {
+    color: #373737;
+    font-size: 24px;
+}
+.testimonial-meta img{
+    border-radius: 50%;
+    display: inline-block!important;
+    width: 65px!important;
+
+}
+
+.testimonial-meta {
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 40px;
+}
+.testimonial-meta h4 {
+    color: #333;
+    margin: 27px 0 10px;
+}
+.testimonial-carousel .owl-dot {
+    margin-top: 40px;
+}
+.cta-area {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+}
+.cta-area h2 {
+    margin: 0;
+    padding: 8px;
+}
