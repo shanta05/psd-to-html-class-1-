@@ -19,6 +19,15 @@
 			    loop:true,
 			    nav:false,
 			});
+	    
+			$('.logo-carousel').owlCarousel({
+				items:6,
+				margin:30,
+				dots:false,
+			    loop:true,
+			    nav:false,
+			    autoplay:true,
+			});
 
 
         
