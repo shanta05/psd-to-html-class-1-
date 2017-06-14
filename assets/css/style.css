@@ -237,6 +237,7 @@ background-color: #ECECEC;
     margin: 0;
     padding: 8px;
 }
+
 .signle-pricing-box {
     border: 1px solid #f8f8f8;
     margin-bottom: 75px;
@@ -356,4 +357,44 @@ background-color: #ECECEC;
     background: #f7f7f7 none repeat scroll 0 0;
     padding: 8px;
 }
-
+.hero-form {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #333;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+.hero-form::after {
+    background-color: #fff;
+    border-radius: 5px;
+    content: "";
+    height: 100%;
+    left: 10px;
+    opacity: 0.2;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+.hero-form-header {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.hero-form-header h2 {
+    font-size: 22px;
+    margin-bottom: 48px;
+}
+.hero-form-header h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.hero-form input {
+    width: 100%;
+}
+.hero-form input[type="submit"] {
+    display: block;
+    margin: 35px auto 0;
+    width: 200px;
+}
