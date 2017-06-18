@@ -18,8 +18,8 @@
 			    loop:true,
 			    nav:false,
 			});
-	   		 $('.homepage-slides').owlCarousel({
-			    items:1,
+			$('.homepage-slides').owlCarousel({
+				items:1,
 			    loop:true,
 			    dots:true,
 			    nav:true,
@@ -40,6 +40,8 @@
 						    loop:true,
 						    nav:false,
 						});
+
+
 
 
         
