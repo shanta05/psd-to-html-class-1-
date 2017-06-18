@@ -19,7 +19,7 @@
 			    nav:false,
 			});
 			$('.homepage-slides').owlCarousel({
-				items:1,
+			    items:1,
 			    loop:true,
 			    dots:true,
 			    nav:true,
