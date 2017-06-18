@@ -18,6 +18,13 @@
 			    loop:true,
 			    nav:false,
 			});
+	   		 $('.homepage-slides').owlCarousel({
+			    items:1,
+			    loop:true,
+			    dots:true,
+			    nav:true,
+			    navText:['<i class="zmdi zmdi-arrow-left" aria-hidden="true"></i>','<i class="zmdi zmdi-arrow-right" aria-hidden="true"></i>'],
+			});
 
 			$('.testimonial-carousel').owlCarousel({
 				items:1,
