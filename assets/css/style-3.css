@@ -1,0 +1,93 @@
+.slide-bg-1{background-image: url(../img/slide-bg-1.jpg);
+ background-repeat: no-repeat;
+}
+.single-slide-item::after{
+	background: #1d65f0;
+background: -moz-linear-gradient(45deg,  #1d65f0 0%, #1ac8fb 100%);
+background: -webkit-linear-gradient(45deg,  #1d65f0 0%,#1ac8fb 100%);
+background: linear-gradient(45deg,  #1d65f0 0%,#1ac8fb 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d65f0', endColorstr='#1ac8fb',GradientType=1 );
+
+}
+.header-absolute{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index:9;
+}
+.header-absolute .mainmenu li a  {
+  color: #fff;
+}
+.single-slide-item {
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+html, body {
+    height: 100%;
+}
+.single-item-wrapper {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.single-slide-item::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9
+}
+
+.single-item-wrapper h2 {
+    color: #fff;
+    font-size: 65px;
+    line-height: 75px;
+}
+.video-play-btn {
+    background: #06d6a0 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 62px;
+    line-height: 64px;
+    margin-top: 20px;
+    padding-left: 4px;
+    width: 62px;
+}
+
+.homepage-slides, .homepage-slides div {
+    height: 100%;
+}
+.homepage-slides div.single-item-wrapper, .single-item-wrapper div {
+    height: auto;
+}
+.homepage-slides div.owl-controls, .homepage-slides div.owl-controls div {
+    height: auto;
+}
+
+.homepage-slides .owl-nav div {
+    color: #fff;
+    font-size: 25px;
+    left: 50px;
+    line-height: 30px;
+    margin-top: -15px;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+}
+.homepage-slides .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+.homepage-slides .owl-nav div:hover {
+    opacity: 1;
+}
