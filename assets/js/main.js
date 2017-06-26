@@ -19,7 +19,7 @@
 			    nav:false,
 			});
 			$('.homepage-slides').owlCarousel({
-			    items:1,
+				items:1,
 			    loop:true,
 			    dots:true,
 			    nav:true,
@@ -41,7 +41,18 @@
 						    nav:false,
 						});
 
-
+			$(".menu-trigger").on('click',function(){
+				$(".off-canvus-menu").addClass("show-off-canvus-menu")
+				$(".off-canvus-menu-shade").addClass("active")
+			});
+			$(".menu-close").on('click',function(){
+				$(".off-canvus-menu").removeClass("show-off-canvus-menu")
+				$(".off-canvus-menu-shade").removeClass("active")
+			});
+			$(".off-canvus-menu-shade").on('click',function(){
+				$(".off-canvus-menu").removeClass("show-off-canvus-menu")
+				$(".off-canvus-menu-shade").removeClass("active")
+			});
 
 
         
