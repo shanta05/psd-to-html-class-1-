@@ -9,16 +9,7 @@ background: linear-gradient(45deg,  #1d65f0 0%,#1ac8fb 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d65f0', endColorstr='#1ac8fb',GradientType=1 );
 
 }
-.header-absolute{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index:9;
-}
-.header-absolute .mainmenu li a  {
-  color: #fff;
-}
+
 .single-slide-item {
     display: table;
     height: 100%;
@@ -116,14 +107,6 @@ html, body {
 }
 .boxed-btn, input[type="submit"], button[type="submit"] {
     background-color: #06d6a0;
-}
-.website-checker-form input {
-    margin-right: 2%;
-    width: 26%;
-}
-.website-checker-form input[type="submit"] {
-    margin-right: 0;
-    width: 14%;
 }
 .website-checker-form {
     margin-top: -35px;
