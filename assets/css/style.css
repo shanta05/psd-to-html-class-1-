@@ -398,3 +398,21 @@ background-color: #ECECEC;
     margin: 35px auto 0;
     width: 200px;
 }
+.header-absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:9;
+}
+.header-absolute .mainmenu li a  {
+  color: #fff;
+}
+.website-checker-form input {
+    margin-right: 2%;
+    width: 26%;
+}
+.website-checker-form input[type="submit"] {
+    margin-right: 0;
+    width: 14%;
+}
