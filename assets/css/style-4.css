@@ -118,3 +118,72 @@ body, html, .homepage-hero-area-4, .single-slide-item {
     opacity: 0.7;
     visibility: visible;
 }
+.service-section:before{background-image: url(../img/service-bg-1.jpg);}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+.title-gallary {
+    padding-right: 20px;
+    position: relative;
+}
+.title-gallary img {
+    border-radius: 3px;
+    box-shadow: 0 5px 5px #d8d8d8;
+}
+.absolute-gallery-img-1 {
+    left: 0;
+    position: absolute;
+    top: 80px;
+}
+.pdt-80 {
+    padding-top: 80px;
+}
+.inline-btn {
+    color: #06d6a0;
+    display: inline-block;
+    padding-top: 20px;
+}
+body {
+    font-weight: 300;
+    line-height: 1.6;
+}
+.service-box-2 {
+    margin-bottom: 50px;
+    min-height: 200px;
+}
+.section-icon {
+    color: #06d6a0;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.service-section {
+    margin-top: 110px;
+    padding-bottom: 40px;
+    padding-top: 90px;
+    position: relative;
+    z-index: 1;
+}
+.service-section::before {
+    background-position: center center;
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 1px 6px 5px #f4f4f4;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: -60px;
+    width: 50%;
+}
+.service-section::after {
+    background: #f4f4f4 none repeat scroll 0 0;
+    box-shadow: 1px 6px 7px #f4f4f4;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 55%;
+    z-index: -1;
+}
