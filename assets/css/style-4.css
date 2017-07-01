@@ -340,6 +340,7 @@ body {
 }
 .theme-4 .email-subscriber-form input[type="email"] {
     color: #333;
+    border:10px;
 }
 .copy-right.theme-4 {
     background: #0f2e38 none repeat scroll 0 0;
