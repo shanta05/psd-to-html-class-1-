@@ -54,6 +54,17 @@
 				$(".off-canvus-menu-shade").removeClass("active")
 			});
 
+			$(".signle-testimonial-box").hover(function(){
+				$(".signle-testimonial-box").removeClass('active');
+				$(this).addClass('active');
+
+			});
+
+			$(".video-play-btn").magnificPopup({
+				type:'video'
+
+			});
+
 
         
 
