@@ -325,6 +325,7 @@ background-color: #ECECEC;
     border-radius: 0;
     margin-left: -4px;
     padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .social-links li a i.fa {
@@ -415,4 +416,90 @@ background-color: #ECECEC;
 .website-checker-form input[type="submit"] {
     margin-right: 0;
     width: 14%;
+}
+.cta-area.theme-4{background: url(../img/cta-bg-4.jpg);} 
+.cta-area.theme-5,.breadcrumb-bg-1{background: url(../img/cta-bg-5.jpg);} 
+
+.cta-area.theme-4, .cta-area.theme-5, .breadcrumb-area {
+    background-color: #333;
+    color: #fff;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.cta-area.theme-4::after, .breadcrumb-area:after {
+    background-color: #333;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.cta-area.theme-5::after, .breadcrumb-area:after {
+    background: #42636d none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.cta-area.theme-4, .cta-area.theme-4 h2, .breadcrumb-area h2 {
+    color: #fff;
+}
+.cta-area.theme-4 h2 {
+    margin-bottom: 20px;
+}
+.video-play-btn {
+    background: #06d6a0 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 35px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 20px;
+    padding-left: 5px;
+    width: 70px;
+}
+.shadow-img {
+    box-shadow: 0 0 11px #f5f5f5;
+}
+.padding-30 {
+    padding: 30px;
+}
+.cta-area.theme-5, .cta-area.theme-5 h2 {
+    color: #fff;
+}
+.cta-area.theme-5 h2 {
+    margin-bottom: 15px;
+}
+
+.cta-area.theme-5 .boxed-btn {
+    margin-top: 30px;
+}
+
+
+.breadcrumb-area {
+    font-size: 22px;
+    padding: 140px 0;
+    text-align: center;
+}
+.breadcrumb-area h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.service-number {
+    color: #dcdcdc;
+    display: inline-block;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 70px;
+    padding-top: 16px;
 }
