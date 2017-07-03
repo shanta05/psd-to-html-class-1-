@@ -187,62 +187,7 @@ body {
     width: 55%;
     z-index: -1;
 }
-.cta-area.theme-4{background: url(../img/cta-bg-4.jpg);} 
-.cta-area.theme-5{background: url(../img/cta-bg-5.jpg);} 
 
-.cta-area.theme-4, .cta-area.theme-5 {
-    background-color: #333;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    z-index: 1;
-}
-.cta-area.theme-4::after {
-    background-color: #333;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.2;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}
-.cta-area.theme-5::after {
-    background: #42636d none repeat scroll 0 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.6;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}
-.cta-area.theme-4, .cta-area.theme-4 h2 {
-    color: #fff;
-}
-.cta-area.theme-4 h2 {
-    margin-bottom: 20px;
-}
-.video-play-btn {
-    background: #06d6a0 none repeat scroll 0 0;
-    border-radius: 50%;
-    color: #fff;
-    display: inline-block;
-    font-size: 35px;
-    height: 70px;
-    line-height: 70px;
-    margin-top: 20px;
-    padding-left: 5px;
-    width: 70px;
-}
-.shadow-img {
-    box-shadow: 0 0 11px #f5f5f5;
-}
-.padding-30 {
-    padding: 30px;
-}
 .single-feature-item {
     margin-top: 50px;
     padding-left: 55px;
@@ -318,17 +263,7 @@ body {
     opacity: 1;
     visibility: visible;
 }
-.cta-area.theme-5, .cta-area.theme-5 h2 {
-    color: #fff;
-}
-.cta-area.theme-5 h2 {
-    margin-bottom: 15px;
-}
-.cta-area.theme-5 .v {
-}
-.cta-area.theme-5 .boxed-btn {
-    margin-top: 30px;
-}
+
 .footer-area.theme-4 {
     background: #073b4c none repeat scroll 0 0;
 }
@@ -340,9 +275,14 @@ body {
 }
 .theme-4 .email-subscriber-form input[type="email"] {
     color: #333;
-    border:10px;
 }
 .copy-right.theme-4 {
     background: #0f2e38 none repeat scroll 0 0;
     color: #fff;
+}
+.single-service-box:hover{
+    border-color: #62debe;
+}
+.single-service-box:hover a.service-reademore-btn,.single-service-box:hover h3,.single-service-box:hover .service-icon{
+    color: #62debe;
 }
