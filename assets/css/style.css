@@ -104,7 +104,9 @@ input[type=text],input[type=email],input[type=tel],input[type=passward],input[ty
 .pdt-50 {
   padding-top: 50px;
 }
-
+.padding-bottom-50{
+    padding-bottom: 50px;
+}
 .pdt-50 .boxed-btn {
   margin-top: 15px;
 }
@@ -671,6 +673,16 @@ background-color: #ECECEC;
 }
 .theme-2 .case-study-wrapper h4 {
     font-size: 20px;
+}
+.boxed-case-study{
+    margin: -15px 0;
+}
+.theme-2 .single-case-study{
+    margin: 15px 0;
+    height: 300px;
+}
+.theme-2 .case-study-box-style-2{
+    margin: 25px 0;
 }
 .case-study-preview-1{background-image: url(../img/background-1.png);}
 .case-study-preview-2{background-image: url(../img/background-2.png);}
