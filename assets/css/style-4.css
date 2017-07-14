@@ -54,3 +54,9 @@ body {
 .single-service-box:hover a.service-reademore-btn,.single-service-box:hover h3,.single-service-box:hover .service-icon{
     color: #62debe;
 }
+.signle-pricing-box:hover{
+    border-color: #06d6a0;
+}
+.pricing-count{
+    color: #06d6a0;
+
