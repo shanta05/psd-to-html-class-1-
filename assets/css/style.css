@@ -782,6 +782,25 @@ background-color: #ECECEC;
 .about-text {
     margin-top: 50px;
 }
+.about-text > h3 {
+    margin-bottom: 30px;
+}
+.about-text .boxed-btn {
+    margin-top: 14px;
+}
+.about-text {
+    margin-top: 50px;
+}
+.single-team-box h4 span {
+    color: #b0b0b0;
+    display: block;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.single-team-box h4 {
+    margin-top: 10px;
+    text-align: center;
+}
  /*=======================
  Owl Carousel CSS
  ========================*/
