@@ -421,11 +421,11 @@ input[type=text],input[type=email],input[type=tel],input[type=passward],input[ty
 }
 .website-checker-form input {
     margin-right: 2%;
-    width: 40%;
+    width: 26%;
 }
 .website-checker-form input[type="submit"] {
     margin-right: 0;
-    width: 25%;
+    width: 14%;
 }
 .homepage-hero-area-4 {
     background-color: #ddd;
