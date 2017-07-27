@@ -146,6 +146,11 @@
 .hero-form {
   margin-top: 50px;;
 }
+.absolute-gallery-img-1 {
+  left: 0;
+  position: relative;
+  top: auto;
+}
 }
 /* Tablet & Mobile Layout: 768px. */
 @media only screen and (max-width: 991px) { 
