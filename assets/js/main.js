@@ -3,6 +3,9 @@
 
     jQuery(document).ready(function($){
 
+
+
+    	/*
     	
 			  $('.map')
 		      .gmap3({
@@ -32,6 +35,11 @@
 		        ],
 		        {name: "Shades of Grey"}
 		      );
+
+		      */
+
+		   
+
 
 
 			$('.logo-carousel').owlCarousel({
@@ -119,11 +127,19 @@
 
 			});
 
-			$(".video-play-btn").magnificPopup({
+			/*$(".video-play-btn").magnificPopup({
 				type:'video'
 
 			});
+			*/
 
+			  $("#traffic-mobile-menu").slicknav({
+			  	prependTo:"#mobile-menu-wrap",
+			  	allowParentLinks:true
+			});
+			
+
+			
 
         
 
