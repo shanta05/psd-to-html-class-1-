@@ -170,7 +170,9 @@ input[type=text],input[type=email],input[type=tel],input[type=passward],input[ty
  /*=======================
  Mainmenu CSS
  ========================*/
-
+.slicknav_menu{
+    display: none;
+}
 .mainmenu ul {
     list-style: outside none none;
     margin: 0;
